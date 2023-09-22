@@ -3,6 +3,56 @@
     background-color: aqua;
 }
 
+img {
+
+    position: relative;
+    left: 150px;
+    right: 150px;
+}
+
+figcaption {
+    position: relative;
+    left: 250px;
+    right: 250px;
+}
+
+h1 {
+    position: relative;
+    left: 350px;
+    right: 350px;
+}
+
+#caption {
+
+    position: relative;
+    left: 350px;
+    right: 350px;
+}
+
+blockquote {
+    position: relative;
+    left: 200px;
+    right: 200px;
+}
+
+cite {
+    position: relative;
+    left: 200px;
+    right: 200px;
+}
+
+#achievements {
+    position: relative;
+    left: 150px;
+    right: 150px;
+}
+
+h2 {
+    position: relative;
+    left: 150px;
+    right: 150px;
+}
+
 .box {
     height: 100px;
     width: 100;
@@ -11,9 +61,17 @@
     margin: 10px;
     padding: 25px;
     background-image: linear-gradient(to right, yellow, orange);
-    text-shadow:  1px 1px 2px aqua;
+    text-shadow: 1px 1px 2px aqua;
     box-shadow: 10px 10px 3px aquamarine;
+    position: relative;
+    left: 20px;
+    right: 20px;
 
 
+}
 
+form {
+    position: relative;
+    left: 200px;
+    right: 200px;
 }

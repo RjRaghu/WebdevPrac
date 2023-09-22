@@ -14,7 +14,7 @@
   </head>
   <body>
     <h1>Monkey . D . Luffy</h1>
-    <p><strong>The Future Pirate King</strong></p>
+    <p id="caption"><strong>The Future Pirate King</strong></p>
     <figure>
       <img
         src="Monkey D Luffy.jpeg"
@@ -28,7 +28,7 @@
     </figure>
 
     <h2>Biography</h2>
-    <div class="box ">
+    <div class="box">
       <p>
         Monkey D Luffy is the Anime/Manga character created by Oda Sensei. He's
         one of the most lovable character and undoubtedly most epic
@@ -41,13 +41,16 @@
     </div>
 
     <h2>Achievements</h2>
-    <ul>
-      <li>Becoming A Yonko At The Age Of 19.</li>
-      <li>Defeating Kaido.</li>
-      <li>Mastering Advanced Conqueror's Haki</li>
-      <li>Being The Only Man To Successfully Attack Enies Lobby.</li>
-      <li>Getting A Rookie's Recognition From Whitebeard</li>
-    </ul>
+    <div>
+      <ul id="achievements">
+        <li>Becoming A Yonko At The Age Of 19.</li>
+        <li>Defeating Kaido.</li>
+        <li>Mastering Advanced Conqueror's Haki</li>
+        <li>Being The Only Man To Successfully Attack Enies Lobby.</li>
+        <li>Getting A Rookie's Recognition From Whitebeard</li>
+      </ul>
+    </div>
+
     <blockquote>
       <p>"One of the greatest character having best storyline"</p>
     </blockquote>
@@ -55,49 +58,50 @@
     <br /><br /><br /><br />
     <h1>Welcome To The Straw Hats</h1>
     <h2>Contact Us Form To Become Nakama</h2>
+    <form action="submit">
+      <label for="username">Name: </label>
+      <input type="text" name="username" />
+      <br />
+      <label for="email">Email: </label>
+      <input type="email" name="email" />
+      <br />
+      <br />
+      <br />
+      <label for="Contact">Contact Number: </label>
+      <input type="number" name="Contact" />
+      <br />
+      <label for="Gender">Gender</label>
+      <select name="Gender" id="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Chakke">Chakke</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <label for="DOB">Date Of Birth: </label>
+      <input type="date" name="DOB" />
+      <br /><br /><br />
+      <label for="radio"
+        >Rating: <input type="radio" name="rating" value="1" /> 1 Star
+      </label>
 
-    <label for="username">Name: </label>
-    <input type="text" name="username" />
-    <br />
-    <label for="email">Email: </label>
-    <input type="email" name="email" />
-    <br />
-    <br />
-    <br />
-    <label for="Contact">Contact Number: </label>
-    <input type="number" name="Contact" />
-    <br />
-    <label for="Gender">Gender</label>
-    <select name="Gender" id="Gender">
-      <option value="Male">Male</option>
-      <option value="Female">Female</option>
-      <option value="Chakke">Chakke</option>
-    </select>
-    <br />
-    <br />
-    <br />
-    <label for="DOB">Date Of Birth: </label>
-    <input type="date" name="DOB" />
-    <br /><br /><br />
-    <label for="radio"
-      >Rating: <input type="radio" name="rating" value="1" /> 1 Star
-    </label>
+      <label> <input type="radio" name="rating" value="2" /> 2 Stars </label>
 
-    <label> <input type="radio" name="rating" value="2" /> 2 Stars </label>
+      <label> <input type="radio" name="rating" value="3" /> 3 Stars </label>
 
-    <label> <input type="radio" name="rating" value="3" /> 3 Stars </label>
+      <label> <input type="radio" name="rating" value="4" /> 4 Stars </label>
 
-    <label> <input type="radio" name="rating" value="4" /> 4 Stars </label>
-
-    <label> <input type="radio" name="rating" value="5" /> 5 Stars </label>
-    <br />
-    <br />
-    <label for="message">Enter Your Message</label>
-    <br />
-    <textarea name="message" id="message"></textarea>
-    <br />
-    <br />
-    <input id="firstbutton" type="submit" value="Submit" />
-    <input type="submit" value="Reset" />
+      <label> <input type="radio" name="rating" value="5" /> 5 Stars </label>
+      <br />
+      <br />
+      <label for="message">Enter Your Message</label>
+      <br />
+      <textarea name="message" id="message"></textarea>
+      <br />
+      <br />
+      <input id="firstbutton" type="submit" value="Submit" />
+      <input type="submit" value="Reset" />
+    </form>
   </body>
 </html>
